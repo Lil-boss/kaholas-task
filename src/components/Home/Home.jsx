@@ -4,7 +4,7 @@ import { BsQuestionCircle } from "react-icons/bs";
 const Home = () => {
     return (
         <>
-            <div className='w-4/5 mx-auto mb-10'>
+            <section className='w-4/5 mx-auto mb-10'>
                 <h1 className='text-5xl'>summer Art Camp! 5 Days of Artists and Painting Monet, van Gogh, Matisse, & More</h1>
                 <small className='flex items-center font-medium text-gray-400'>Multi-Day Course
                     <BsQuestionCircle className='ml-2' /></small>
@@ -64,7 +64,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
         </>
     );
